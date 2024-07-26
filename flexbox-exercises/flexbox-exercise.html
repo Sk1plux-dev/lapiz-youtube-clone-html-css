@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      .title-bar {
+        height: 60px;
+        background-color: rgb(172, 47, 214);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .left-section {
+        width: 10px;
+      }
+
+      .middle-section {
+        flex: 1;
+        max-width: 400px;
+        
+      }
+
+      .right-section {
+       width: 90px;
+      }
+
+      .search-bar {
+        width: 420px;
+        height: 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: white;
+        padding-left: 10px;
+        font-size: 10px;
+      }
+
+      
+
+      .home {
+       margin-left: 10px;
+       font-family: Arial;
+       font-size: 12px;
+       font-weight: bold;
+       color: white;
+      }
+
+      .download-button {
+        height: 30px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(241, 232, 232);
+        background-color: rgb(172, 47, 214);
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 9px;
+        padding-right: 9px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title-bar">
+      <div class="left-section">
+        <p class="home">
+          Home
+        </p>
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+      </div>
+      <div class="right-section">
+        <button class="download-button">
+          Download
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

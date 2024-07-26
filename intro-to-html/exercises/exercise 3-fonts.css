@@ -1,0 +1,20 @@
+
+
+.model-title {
+  font-size: 35px;
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-bottom: 15px;
+
+}
+
+.description {
+  font-size: 20px;
+  font-family: Montserrat;
+  margin-top: 0;
+}
+
+.span-deliver {
+  text-decoration: underline;
+  
+}

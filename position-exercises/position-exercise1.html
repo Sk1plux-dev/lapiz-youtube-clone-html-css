@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta name="author" content="Jaysrel Lapiz">
+    <style>
+
+  p {
+    margin-left: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial;
+  }  
+    
+   .div1 {
+    position: fixed;
+    background-color: green;
+    color: white;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+   }
+
+   .container-overlay {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+  }
+
+  .modal {
+    background-color: white;
+    position: fixed;
+    top: 190px;
+    left: 200px;
+    right: 200px;
+    bottom: 200px;
+  }
+
+  .modal-title { 
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    
+  }
+
+  .modal-description {
+    font-size: 15px;
+    margin-bottom: 10px;
+
+  }
+
+  .close-button {
+    margin-left: 18px;
+  }
+    </style>
+  </head>
+  <body style="
+  padding-bottom: 1000px;
+  ">
+    <div class="div1">
+     right-sidebar
+    </div>
+
+    <div class="container-overlay">
+      <div class="modal">
+       <p class="modal-title">
+        Modal Title
+       </p>
+
+       <p class="modal-description">
+        This is a modal
+       </p>
+
+       <button class="close-button">
+        Close
+       </button>
+      </div>
+    </div>
+  </body>
+</html>
